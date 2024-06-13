@@ -1,0 +1,210 @@
+body {
+  background-color: #f6f7f8;
+}
+header {
+  top: 18px;
+  left: 18px;
+  /* width: 1564px; */
+  height: 72px;
+  background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border-radius: 70px;
+  opacity: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+nav {
+  display: flex;
+  top: 23px;
+  left: 473px;
+  width: 663px;
+  height: 63px;
+  opacity: 1;
+  gap: 5px;
+  align-items: center;
+}
+#logo {
+  top: 30px;
+  left: 50px;
+  width: 211px;
+  height: 48px;
+}
+.navIcons {
+  top: 45px;
+  left: 473px;
+  width: fit-content;
+  height: 19px;
+  /* UI Properties */
+  opacity: 1;
+  display: flex;
+  gap: 3px;
+}
+.navImage {
+  top: 46px;
+  left: 473px;
+  width: 16px;
+  height: 17px;
+  opacity: 1;
+}
+.navText {
+  width: fit-content;
+  height: 19px;
+  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold)
+    var(--unnamed-font-size-14) / var(--unnamed-line-spacing-19)
+    var(--unnamed-font-family-manrope);
+  letter-spacing: var(--unnamed-character-spacing-0);
+  color: var(--unnamed-color-072635);
+  text-align: left;
+  font: normal normal bold 14px/19px Manrope;
+  letter-spacing: 0px;
+  color: #072635;
+  opacity: 1;
+  margin: 0;
+}
+.coloredNav {
+  justify-content: center;
+  align-items: center;
+  width: 122px;
+  height: 41px;
+  /* UI Properties */
+  background: #01f0d0 0% 0% no-repeat padding-box;
+  border-radius: 41px;
+  opacity: 1;
+  display: flex;
+  margin-right: 10px;
+}
+#docImage {
+  width: 44px;
+  height: 44px;
+}
+#docProfile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: fit-content;
+  height: 44px;
+  /* UI Properties */
+  opacity: 1;
+  gap: 10px;
+}
+#docName {
+  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold)
+    var(--unnamed-font-size-14) / var(--unnamed-line-spacing-19)
+    var(--unnamed-font-family-manrope);
+  letter-spacing: var(--unnamed-character-spacing-0);
+  color: var(--unnamed-color-072635);
+  text-align: left;
+  font: normal normal bold 14px Manrope;
+  letter-spacing: 0px;
+  color: #072635;
+  opacity: 1;
+  color: #072635;
+  margin: 0;
+}
+#docRole {
+  font: var(--unnamed-font-style-normal) normal
+    var(--unnamed-font-weight-normal) var(--unnamed-font-size-14) /
+    var(--unnamed-line-spacing-19) var(--unnamed-font-family-manrope);
+  letter-spacing: var(--unnamed-character-spacing-0);
+  color: var(--unnamed-color-707070);
+  text-align: left;
+  font: normal normal normal 14px/19px Manrope;
+  letter-spacing: 0px;
+  color: #707070;
+  opacity: 1;
+  margin: 0;
+  color: #707070;
+}
+#divider {
+  width: 1px;
+  height: 44px;
+  /* UI Properties */
+  background: var(--unnamed-color-ededed) 0% 0% no-repeat padding-box;
+  background: #ededed 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+#gearIcons {
+  display: flex;
+  gap: 5px;
+}
+#settingGear {
+  width: 19px;
+  height: 20px;
+  /* UI Properties */
+  background: transparent url("img/settings_FILL0_wght300_GRAD0_opsz24.png") 0%
+    0% no-repeat padding-box;
+  opacity: 1;
+}
+#vertIcon {
+  width: 4px;
+  height: 18px;
+  background: transparent url("img/more_vert_FILL0_wght300_GRAD0_opsz24.png") 0%
+    0% no-repeat padding-box;
+  opacity: 1;
+}
+#patientsData {
+  margin-top: 20px;
+  width: 367px;
+  height: 100vh;
+  /* UI Properties */
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border-radius: 16px;
+  opacity: 1;
+  padding: 2px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: scroll;
+}
+#cardTitle {
+  width: 100px;
+  height: 33px;
+  /* UI Properties */
+  text-align: left;
+  font: normal normal 800 24px Manrope;
+  letter-spacing: 0px;
+  color: #072635;
+  opacity: 1;
+  margin: 0;
+}
+#cardTop {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 15px 15px;
+  width: 90%;
+}
+#searchIcon {
+  width: 18px;
+  height: 18px;
+  opacity: 1;
+}
+.patientProfile {
+  width: 317px;
+  height: 48px;
+  /* UI Properties */
+  opacity: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 27px;
+}
+.nameImage {
+  display: flex;
+  gap: 20px;
+}
+#patientsData::-webkit-scrollbar {
+  width: 6px; 
+}
+
+#patientsData::-webkit-scrollbar-track {
+  background: #E3E4E6; 
+}
+
+#patientsData::-webkit-scrollbar-thumb {
+  background-color: #072635; 
+  border-radius: 3px; 
+  border: 6px solid #072635; 
+}
